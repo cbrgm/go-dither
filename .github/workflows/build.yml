@@ -1,0 +1,24 @@
+on: [push, pull_request]
+name: test-and-build
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: ^1.19
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Get modules
+        run: go mod vendor
+      - name: Test
+        run: go test ./...
+      - name: Build
+        run: |
+          mkdir bin
+          GOOS=windows GOARCH=amd64 go build -o ./bin/$BINARY_windows_amd64
+          GOOS=linux GOARCH=amd64 go build -o ./bin/$BINARY_linux_amd64
+          GOOS=darwin GOARCH=amd64 go build -o ./bin/$BINARY_darwin_amd64
+        env:
+          BINARY: dither
