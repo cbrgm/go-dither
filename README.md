@@ -3,9 +3,11 @@
 This is a command line tool for converting images to black and white using dithering techniques.
 
 <p float="left">
+  **Input**
   <img src="examples/in_01.jpg" width="200" /><br>
+  **Output**
   <img src="examples/output_o4.jpg" width="200" />
-  <img src="examples/output_o9.jpg" width="200" />
+  <img src="examples/output_o9.jpg" width="200" /><br>
   <img src="examples/output_r.jpg" width="200" />
   <img src="examples/output_t.jpg" width="200" />
 </p>
