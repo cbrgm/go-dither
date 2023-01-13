@@ -55,4 +55,6 @@ go run main.go image.jpg -m o9 -f png -o image_o9 -q 75 -t 128
 
 This will take the image "image.jpg", apply ordered 9x9 dithering, and save the output as a PNG image named "image_o9" with quality `75` and threshold `128`.
 
+## Acknowledgements
 
+This CLI tool is heavily inspired by [sloum/lid](https://tildegit.org/sloum/lid)
