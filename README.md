@@ -2,7 +2,7 @@
 
 **This is a command line tool for converting images to black and white using dithering techniques.**
 
-> Dither is an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images. Dither is routinely used in processing of both digital audio and video data, and is often one of the last stages of mastering audio to a CD.
+> Dither is an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images. Dither is routinely used in processing of both digital audio and video data, and is often one of the last stages of mastering audio to a CD. A common use of dither is converting a grayscale image to black and white, such that the density of black dots in the new image approximates the average gray level in the original.
 
 See [Wikipedia](https://en.wikipedia.org/wiki/Dither)
 
