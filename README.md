@@ -4,8 +4,8 @@ This is a command line tool for converting images to black and white using dithe
 
 <p float="left">
   <img src="examples/in_01.jpg" width="200" />
-  <img src="examples/output_04.jpg" width="200" />
-  <img src="examples/output_09.jpg" width="200" />
+  <img src="examples/output_o4.jpg" width="200" />
+  <img src="examples/output_o9.jpg" width="200" />
   <img src="examples/output_r.jpg" width="200" />
   <img src="examples/output_t.jpg" width="200" />
 </p>
